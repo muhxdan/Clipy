@@ -1,4 +1,4 @@
-package com.salty.apps.clipy.ui.theme
+package com.salty.apps.clipy.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.salty.apps.clipy.ui.theme
+package com.salty.apps.clipy.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
