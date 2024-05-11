@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.kapt)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.serialization)
 }
 
 android {
@@ -85,11 +86,23 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.androidx.navigation.compose)
+
     implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
     kapt(libs.hilt.compiler)
 
-    implementation(libs.supabase.gotrue.kt)
     implementation(libs.supabase.postgrest)
 
-    implementation("androidx.core:core-splashscreen:1.0.0")
+    implementation(libs.ktor.client.android)
+
+    implementation(libs.androidx.core.splashscreen)
+
+    implementation(libs.kotlinx.serialization.json)
+
+    implementation(libs.androidx.media3.exoplayer)
+    implementation(libs.androidx.media3.ui)
+
+    implementation(libs.coil)
 }
+
