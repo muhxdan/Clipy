@@ -11,7 +11,7 @@
 
 ## Download
 
-Go to [Releases](https://github.com/muhxdan/Clipy/releases) page to download the latest APK.
+Go to [Release](app/release) folder to download the latest APK.
 
 ## Installation
 
