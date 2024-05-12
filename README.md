@@ -3,8 +3,8 @@
 ## Demo
 
 <p>
-  <img src="gif/theme_light.gif" width="32%" >
-  <img src="gif/theme_dark.gif" width="32%" >
+  <img src="gif/light.gif" width="32%" >
+  <img src="gif/dark.gif" width="32%" >
 </p>
 
 
